@@ -5,6 +5,7 @@ using UnityEngine;
 public class Balloon : MonoBehaviour
 {
     public GameObject peanutdestroyer;
+    private boolean popped = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,8 +20,9 @@ public class Balloon : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject == peanutdestroyer)
+        if (other.gameObject.name == "Peanut(Clone)")
         {
+            popped = true;
             Destroy(other.gameObject);
             Destroy(gameObject);
         }
