@@ -341,7 +341,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 182764902}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.24, y: 4.523, z: -8.71}
+  m_LocalPosition: {x: 5.24, y: 4.523, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -705,7 +705,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 865470049}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.126339, y: 2.5340855, z: -5.47}
+  m_LocalPosition: {x: 21.82, y: 2.5340855, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 957218332}
   - component: {fileID: 957218336}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Flat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -803,7 +803,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 957218331}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.01, y: 0.09, z: -3.43}
+  m_LocalPosition: {x: 17.19, y: 0.09, z: -3.43}
   m_LocalScale: {x: 23.983759, y: 0.29057, z: 1.5159421}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -967,7 +967,7 @@ GameObject:
   - component: {fileID: 1638241760}
   - component: {fileID: 1638241759}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Platform fall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
